@@ -13,22 +13,33 @@
     <h2>Índice</h2>
     <ul>
       <li><a href="#clients-servers">O que são Clients e Servers?</a></li>
-      <li><a href="#"></a>Html e sua estrutura básica</li>
-      <li><a href="#"></a>O que são tags?</li>
-      <li><a href="#"></a>O que são atributos?</li>
-      <li><a href="#"></a>Principais tags</li>
-      <li><a href="#"></a>Principais atributos e o que são atributos comuns e unicos</li>
-      <li><a href="#"></a>O que são listas ordenadas e não ordenadas?</li>
-      <li><a href="#"></a>Referências</li>
+      <li><a href="#tags">O que são tags?</a></li>
+      <li><a href="#atributos">O que são atributos?</a></li>
+      <li><a href="#html">Html e sua estrutura básica</a></li>
+      <li><a href="#principais-tags">Principais tags</a></li>
+      <li><a href="#">Principais atributos e o que são atributos comuns e unicos</a></li>
+      <li><a href="#">O que são listas ordenadas e não ordenadas?</a></li>
+      <li><a href="#referencia">Referências</a></li>
     </ul>
-    <h2 id="clients-servers">O que são Clients e Servers?</h2>
+    <h2 id="clients-servers">O que são <strong><i>Clients</i></strong> e <strong><i>Servers</i></strong>?</h2>
     <small><a href="#inicio">Voltar</a></small>
     <p>O termo client e server, são termos utilizado dentro da arquitetura de rede, ambos são termos aplicados em uma
       relação de dois ou mais individuos presentes. O client, é o termo utilizado para se referir ao eletronico que detém
       uma interface gráfica que possibilita a navegação ou acesso a dados e aplicativos, ja o server, são computadores que
       detém como objetivo, gerir e fornecer dados para o solicitantes (client), parar que o mesmo possa consumir a
       informação que lhe interessa.</p>
-    <h2>Html e sua estrutura básica</h2>
+    <h2 id="tags">O que são <strong><i>tags</i></strong>?</h2>
+    <p>Em resumo, tags são instruções que informam ao navegador como formatar o texto. Você pode usar tags para definir itálico, quebras de linha, objetos, bullet points e muito mais.</p>
+    <p>Alguns exemplos de tags são: tag de paragrafro (p), tag de título (h1 até h6), tag para colocar em negrito (strong), tag para colocar em italico (i) e etc.</p>
+    <h2 id="atributos">O que são atributos?</h2>
+    <p>Os atributos, em suma, são forma de passar in formações para as tags para que as mesmas se comportem conforme necessitamos, um exemplo classico, é a tag input, essa tag cria um campo para preencimento e o seu comportamento muda conforme atribuimos atributos, por exemplos, se o campo input for receber um número, informamos que o mesmo é do "type" number, desta forma, o mesmo só aceitará números, caso o mesmo receba um texto, atribuímos o "type" como text.</p>
+    <h4>Exemplos dos dois inputs explicado anteriomente: </h4>
+    <p>código:</p>
+    <img src="/imagem/atributos-codigo.PNG">
+    <p>resultado:</p>
+    <img src="/imagem/atributos-resultado.PNG">
+    <p>Lembrando que existem mais atributos, o exemplo citado acima, foi somente um que aplica no input, caso queira ver mais exemplos, <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Attributes" target="_blank"><i>clique aqui</i></a>.</p>
+    <h2 id="html">Html e sua estrutura básica</h2>
     <p>Para entender a estrutura do html, vamos precisar entender as tags que aparecem em seu corpo, desta forma, use a
       imagem a seguir, para entender o seu comportamento, conceito e intrução que passa no código.</p>
     <img src="/imagem/html-estrutura.PNG">
@@ -44,13 +55,119 @@
     <p>Compreende as informações do documento que serão interpretadas pelo navegador (metadados). Como por exemplo, título do documento, links para folhas de estilo etc.</p>
     <h4>O que é a tag <strong>body</strong>?</h4>
     <p>É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML.</p>
+    <h2 id="principais-tags">Principais tags</h2>
+    <p></p>
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Tipo</th>
+        <th>O que é</th>
+      </tr>
+      <tr>
+        <td>p</td>
+        <td>Tag de Texto HTML</td>	
+        <td>Parágrafo</td>
+      </tr>
+      <tr>
+        <td>h1 até h6</td>
+        <td>Tag de Texto HTML</td>
+        <td>Título</td>
+      </tr>
+      <tr>
+        <td>strong</td>
+        <td>Tag de Texto HTML</td>
+        <td>Negrito</td>
+      </tr>
+      <tr>
+        <td>em</td>
+        <td>Tag de Texto HTML</td>
+        <td>Ênfase</td>
+      </tr>
+      <tr>
+        <td>abbr</td>
+        <td>Tag de Texto HTML</td>
+        <td>Abreviação</td>
+      </tr>
+      <tr>
+        <td>address</td>
+        <td>Tag de Texto HTML</td>
+        <td>Informações de contato</td>
+      </tr>
+      <tr>
+        <td>bdo</td>
+        <td>Tag de Texto HTML</td>	
+        <td>Substituir a direção do texto atual</td>
+      </tr>
+      <tr>
+        <td>blockquote</td>
+        <td>Tag de Texto HTML</td>
+        <td>Conteúdo de outra fonte</td>
+      </tr>
+      <tr>
+        <td>mark</td>
+        <td>Tag de Texto HTML</td>
+        <td>Tag de marcação de texto</td>
+      </tr>
+      <tr>
+        <td>small</td>
+        <td>Tag de Texto HTML</td>
+        <td>Tag de alteração do tamanho do texto</td>
+      </tr>
+      <tr>
+        <td>i</td>
+        <td>Tag de Texto HTML</td>
+        <td>italico</td>
+      </tr>
+      <tr>
+        <td>u</td>
+        <td>Tag de Texto HTML</td>
+        <td>sublinhar</td>
+      </tr>
+      <tr>
+        <td>ol</td>
+        <td>Tag de Lista HTML</td>
+        <td>Lista ordenada</td>
+      </tr>
+      <tr>
+        <td>ul</td>
+        <td>Tag de Lista HTML</td>
+        <td>Lista não ordenada</td>
+      </tr>
+      <tr>
+        <td>li</td>
+        <td>Tag de Lista HTML</td>
+        <td>Lista</td>
+      </tr>
+      <tr>
+        <td>hr</td>
+        <td>Tag de Estilo HTML</td>
+        <td>Cria uma linha para separar conteúdo</td>
+      </tr>
+      <tr>
+        <td>sub</td>
+        <td>Tag de Texto HTML</td>
+        <td>Subscrito</td>
+      </tr>
+      <tr>
+        <td>font</td>
+        <td>Tag de Texto HTML</td>
+        <td>Altera css de um texto</td>
+      </tr>
+      <tr>
+        <td>del</td>
+        <td>Tag de Texto HTML</td>
+        <td>Exclui texto</td>
+      </tr>
+    </table>
     <h2 id="referencia">Referências</h2>
     <ol>
       <li><a href="http://ptcomputador.com/Networking/other-computer-networking/79126.html" target="_blank">Qual é a
         Definição de Client Server</a></li>
       <li><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?utm_source=gnarus&utm_medium=timeline&_gl=1*1fkkcsm*_ga*MTc0NjUxODI1Ni4xNjk0NDU4MzM1*_ga_1EPWSW3PCS*MTcwMTUyNjgyNy4xNS4wLjE3MDE1MjY4MjcuMC4wLjA.*_fplc*RnpYT1pMRiUyQkVZM2lacFk2SDdDS013dTFsN1NPbWpBUXIxNVFuUjB1ZDRWeDdvdHF0cUtvZXVrNnlxSEpyWmVISElTU2JycXBVbjc3UWoxR0tVOCUyRldDUjBySVdoZlVUTEdXRlA4RVVCYWt6VlJ0aURrdDVGN2tZQjNBdWdFdyUzRCUzRA..">
         O que é o HTML e suas tags? Parte 1: estrutura básica</a></li>
-      <li></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Attributes" target="_blank">
+        Atributos
+      </a></li>
       <li></li>
       <li></li>
       <li></li>
