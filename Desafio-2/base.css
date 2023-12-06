@@ -6,6 +6,27 @@ body {
   display: flex;
   justify-content: center;
 }
+ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li{
+  list-style-type: none;
+  padding: 5px;
+}
+table thead tr{
+  background-color: black;
+  color: white;
+}
+table tbody tr:nth-child(even) td{
+  background-color: gray;
+}
+table{
+  width: 500px;
+}
+table tbody tr td{
+  text-align: center;
+}
 
 .wrapper {
   width: 1200px;
@@ -26,6 +47,9 @@ body {
 .header {
   background-color: rgb(5, 108, 108);
   min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content {
   background-color: white;
@@ -35,4 +59,11 @@ body {
 .footer {
   background-color: rgb(99, 56, 240);
   min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tituloLogo{
+  font-weight: 700;
+  font-size: 30px;
 }
