@@ -11,6 +11,11 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+.bar ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+}
 .content {
     max-width: 1440px;
     margin: auto;
@@ -27,6 +32,7 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
